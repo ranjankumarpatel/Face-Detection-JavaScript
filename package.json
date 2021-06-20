@@ -1,0 +1,24 @@
+{
+  "name": "face-detection-javascript",
+  "version": "1.0.0",
+  "description": "`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjankumarpatel/Face-Detection-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjankumarpatel/Face-Detection-JavaScript/issues"
+  },
+  "homepage": "https://github.com/ranjankumarpatel/Face-Detection-JavaScript#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
